@@ -35,41 +35,7 @@ $ git push -u origin master
 ```
 
 
-##### Solve conflict
 
-Melakukan clone pada project
-
-```sh
-$ git clone https://github.com/adhewahyu-dev/adhewahyu-dev.github.io.git => alamat project tim
-```
-membuat branch baru
-
-```sh
-$ git branch nama_branch
-```
-
-pindah ke branch yang baru saja dibuat
-```sh
-$ git checkout nama_branch
-```
-
-Lakukan perubahan pada file project tersebut, lalu add, cek status dan commit
-```sh
-$ git add nama_file
-```
-
-```sh
-$ git status
-```
-
-```sh
-$ git commit -m "pesan perubahan"
-```
-
-lakukan push pada file yang diubah di sisi branch baru
-```sh
-$ git push origin nama_branch
-```
 
 ### contribute project tim
 ```sh
